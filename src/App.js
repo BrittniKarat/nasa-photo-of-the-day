@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import ReactDOM from 'react-dom';
 import "./App.css";
 
+
 function App() {
+  const [] = useState()
+
+
   return (
     <div className="App">
       <p>
@@ -13,3 +18,5 @@ function App() {
 }
 
 export default App;
+
+ReactDOM.render(<App />, document.getElementById('root'));
