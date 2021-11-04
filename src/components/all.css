@@ -1,0 +1,132 @@
+html,body,div,span,applet, object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,
+em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  /* border: 0; */
+}
+/* font-family: 'Grandstander', cursive; */
+/* Add CSS styling here */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  font: size 62.5%;
+  border: 1px solid red;
+  
+}
+
+body{
+    background-image: url('/public/earth.jpeg');
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e0dbde;
+    
+}
+/* Header Section styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+    background-color: #2a2560;
+    top: 0;
+    padding: 4% 0 0 0;
+
+}
+h1{
+    font-size: 4rem;
+    color: #7986d5;
+}
+nav {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+}
+nav a {
+    font-size: 2rem;
+    margin: 2% 5%;
+    padding: 2%;
+    background-color: #7986d5;
+    color: #2a2560;
+    text-decoration: none;
+    border-radius: 9px;
+    
+}
+/* Photo section styling */
+.nasaPhoto{
+    margin: 10%;
+}
+.background{
+
+}
+/* Info section styling */
+.info{
+    display: flex;
+    justify-items: space-around;
+    background-color: #2a2560;
+    padding: 2% 0;
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+    margin: 0 5%;
+    
+}
+.left,.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    background-color: #e0dbde;
+    margin:1% 5%;
+    padding: 4% 0;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 5%;
+}
+.group p{
+    margin:5% 0;
+    font-size: 1.3 rem;
+    margin: 0 5%;
+}
+/* Calendar section styling */
+.calendar{
+
+}
+.piece{
+
+}
+.piece h3{
+
+}
+.piece p{
+
+}
+/* Footer section styling */
+.footer{
+
+}
+.contact{
+
+}
+h4{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}

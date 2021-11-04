@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+
 
 const InfoSection = () => {
 
@@ -11,13 +11,14 @@ const InfoSection = () => {
         <div className='group'>
             <div className='left'>
                 <h3>About this photo</h3>
-                <p> lorem </p>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos et excepturi accusantium quo numquam animi ullam aliquam, laborum nam, velit accusamus ratione fugiat nemo labore, deleniti sapiente a vero iure! </p>
             </div>
             <div className='right'>
                 <h3>About NASA</h3>
-                <p> lorem </p>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos et excepturi accusantium quo numquam animi ullam aliquam, laborum nam, velit accusamus ratione fugiat nemo labore, deleniti sapiente a vero iure! </p>
             </div>
         </div>
     </section>)
 }
 
+export default InfoSection;

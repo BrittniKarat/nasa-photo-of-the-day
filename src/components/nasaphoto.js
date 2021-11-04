@@ -1,14 +1,15 @@
 import React from "react";
-import "./App.css";
+import axios from "axios";
 
 const NasaPhoto = () => {
 
    
     return (
 
-        <section className='NasaPhoto'>
-            <div>
-                <h2>Photo for {date}</h2>
+        <section className='nasaPhoto' id='photo'>
+            <div className='background'>
+
+                {/* <h2>Photo for {date}</h2> */}
             </div>
             </section>
     );
