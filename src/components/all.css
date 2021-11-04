@@ -63,11 +63,10 @@ nav a {
     
 }
 /* Photo section styling */
-.nasaPhoto{
-    margin: 10%;
-}
-.background{
-
+#photo{
+    margin: 3%;
+    width: 100%;
+    height: 100%;
 }
 /* Info section styling */
 .info{

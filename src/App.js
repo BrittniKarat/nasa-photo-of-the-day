@@ -12,23 +12,28 @@ import CalendarSection from "./components/calendar"
 import Footer from "./components/footer";
 
 function App() {
-  const [date, setDate] = useState(null);
-  const [photo, setphoto] = useState(null);
-
-  axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
-    .then(res => {
-      console.log(res)
-      res
-    })
-    .catch(err => {
-      console.error(err)
-    })
+  const [details, setDetails] = useState([]);
+  
+  useEffect( () => {
+    axios.get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+      .then(res => {
+        console.log(res)
+        setDetails(res.data)
+          })
+      .catch(err => {
+        console.error(err)
+      })
+  }, [])
 
   return (
     <div className="App">
       <Header />
-      <NasaPhoto />
-      <InfoSection />
+      <NasaPhoto title={details.title} photo={details.url}/>
+      <InfoSection 
+        date={details.date}  
+        explanation={details.explanation} 
+        title={details.title}
+         />
       <CalendarSection />
       <Footer />
       <p>
