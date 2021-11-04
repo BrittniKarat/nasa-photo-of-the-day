@@ -21,7 +21,6 @@ fieldset,form,label,legend {
   margin: 0;
   max-width: 100%;
   font: size 62.5%;
-  border: 1px solid red;
   
 }
 
@@ -34,7 +33,7 @@ body{
     
 }
 /* Header Section styling */
-.header {
+/* .header {
     display: flex;
     justify-content: space-between;
     align-content: flex-end;
@@ -61,15 +60,20 @@ nav a {
     text-decoration: none;
     border-radius: 9px;
     
-}
+} */
 /* Photo section styling */
-#photo{
+/* #photo{
     margin: 3%;
-    width: 100%;
     height: 100%;
 }
+h2{
+    font-size: 2rem;
+}
+h2 span{
+    font-weight: bold;
+} */
 /* Info section styling */
-.info{
+/* .info{
     display: flex;
     justify-items: space-around;
     background-color: #2a2560;
@@ -80,9 +84,7 @@ nav a {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    
     margin: 0 5%;
-    
 }
 .left,.right{
     display: flex;
@@ -103,7 +105,7 @@ h3{
     margin:5% 0;
     font-size: 1.3 rem;
     margin: 0 5%;
-}
+} */
 /* Calendar section styling */
 .calendar{
 

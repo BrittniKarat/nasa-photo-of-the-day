@@ -1,17 +1,31 @@
 import React from "react";
-import axios from "axios";
+import styled from "styled-components";
 
-const NasaPhoto = () => {
+const StyledPhoto = styled.section`
+    #photo{
+        margin: 3%;
+        height: 100%;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h2 span{
+        font-weight: bold;
+    }
+    `
+
+
+const NasaPhoto = props => {
 
    
     return (
 
-        <section className='nasaPhoto' id='photo'>
+        <StyledPhoto className='nasaPhoto' id='photo'>
             <div className='background'>
-
-                {/* <h2>Photo for {date}</h2> */}
+                 <h2> <span> Title </span> <br/> "{props.title}" </h2> 
+                <img src={props.photo} alt={props.title}/>
             </div>
-            </section>
+            </StyledPhoto>
     );
 }
 
