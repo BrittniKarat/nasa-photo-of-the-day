@@ -40,31 +40,13 @@ const Header = () => {
     return (
         <StyledHeader className="header">
             <h1> NASA Photo of The Day </h1>
-            <div>
-                <Button
-                    color="primary"
-                    onClick={function noRefCheck(){}}
-                >
-                    Navigation
-                </Button>
-                <Offcanvas
-                    backdrop={false}
-                    direction="end"
-                    toggle={function noRefCheck(){}}
-                >
-                    <OffcanvasHeader toggle={function noRefCheck(){}}>
-                    Offcanvas
-                    </OffcanvasHeader>
-                    <OffcanvasBody>
-                            <nav>
-                                <a href='#photo'>Photo</a>
-                                <a href='#info'>Info</a>
-                                <a href='#calendar'>Calendar</a>
-                            </nav>
-                    </OffcanvasBody>
-                </Offcanvas>
-             </div> 
-        </StyledHeader>
+            
+                <nav>
+                    <a href='#photo'>Photo</a>
+                    <a href='#info'>Info</a>
+                    <a href='#calendar'>Calendar</a>
+                </nav>    
+         </StyledHeader>
     );
 }
 

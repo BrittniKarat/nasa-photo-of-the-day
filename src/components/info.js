@@ -33,7 +33,8 @@ const StyledInfo = styled.section`
     .group p{
         margin:5% 0;
         font-size: 1.3 rem;
-        margin: 0 5%;
+        margin: 3% 5%;
+    
     }
     `
 
@@ -47,7 +48,9 @@ const InfoSection = (props) => {
         <div className='group'>
             <div className='left'>
                 <h3>About this photo</h3>
-                <p> {props.date} - <b>Copyright:</b> {props.copyright} <br/> {props.explanation}</p>
+                <p> {props.explanation}</p>
+                <p> <b>Date:</b> {props.date}   <b>Copyright:</b> {props.copyright} </p> 
+                
             </div>
             <div className='right'>
                 <h3>About NASA</h3>
